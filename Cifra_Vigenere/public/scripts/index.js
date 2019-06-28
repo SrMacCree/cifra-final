@@ -10,16 +10,6 @@ function capElemento(ref) {
     return element;
 }
 
-const btnCifrar = capElemento('#cifrar')
-btnCifrar.addEventListener('click', () => {
-    criptografar(verChave())
-})
-
-const btnDecifrar = capElemento('#descifrar')
-btnDecifrar.addEventListener('click', () => {
-    descriptografar(verChave())
-})
-
 function verChave() {
     let k = capElemento('.senha').value;
     if (!k.length) {
@@ -79,6 +69,15 @@ function criptografar() {
     retorneHTML(retorno);
     event.preventDefault();
 }
+const btnCifrar = capElemento('#cifrar')
+btnCifrar.addEventListener('click', () => {
+    criptografar(verChave())
+})
+
+const btnDecifrar = capElemento('#descifrar')
+btnDecifrar.addEventListener('click', () => {
+    descriptografar(verChave())
+})
 
 function descriptografar() {
     capElemento(".retorno").innerHTML = "<h3>Resultado<h3>"
