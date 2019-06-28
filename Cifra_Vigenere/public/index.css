@@ -1,0 +1,70 @@
+body {
+    background-image: url(../public/imagens/sseg.jpg);
+    background-size: cover;
+}
+
+
+.titulo {
+    text-align: center;
+    width: 80%;
+    margin: 1vh 10%;
+}
+header{
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    border-radius: 30px;
+    color: aliceblue;
+}
+h1,
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background:rgba(0, 0, 0, 0.652);
+    color:white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    height: 549px;
+    width: 40%;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 30%;
+    
+}
+
+input{
+    width: 90%;
+    height: 8%;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 1vh 5%;
+    border-radius: px;
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+
+.botao {
+    display: inline-block;
+    background: rgba(230, 138, 2, 0.9);
+    color: #EBEBEB;
+    border-radius: 20px;
+    text-align: center;
+    margin: 1vh auto;
+    padding: 0;
+    font-size: 15px;
+    width: 50%;
+    height: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(0, 0, 0, 0.652);
+}
